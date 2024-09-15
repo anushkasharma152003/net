@@ -1,0 +1,213 @@
+
+@import url(https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png);
+  @import url('https://fonts.cdnfonts.com/css/netflix-font');
+                
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: black;
+}
+
+.nav1{
+    background-image: url(n1.png);
+    background-size: 1320px;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.23;
+    z-index: -1;
+    position: absolute;
+    box-shadow: 60px 40px 20px rgb(73, 73, 210);
+    
+}
+
+
+
+/* .nav1{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    z-index: 1;
+} */
+
+
+
+.n1{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+    margin-left: 70px;
+    
+    height:30vh;
+    
+}
+
+
+    
+
+
+
+#n11 {
+    
+    
+    margin-right: 30px;
+    margin-left: 47px;
+    z-index: 10;
+    filter: brightness(1.15);
+    fill-opacity: 3;
+    opacity: 1;
+
+}
+
+.n2{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    text-align: center;
+    color: aliceblue;
+    height: 60vh;
+    width: 100vw;
+    
+    
+    
+
+}
+
+.n12{
+    padding-top: 25px;
+}
+
+#english{
+    background-color: transparent;
+    height: 32px;
+    width: 130px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 0.9px solid gray;
+    border-radius: 3px;
+    margin-right: 2px;
+
+}
+
+#b111{
+ height: 32px;
+ width: 90px;
+ color: white;
+ background-color: red;
+ border: none;
+ border-radius: 5px;
+ margin-left: 3px;
+ font-size: 0.9rem;
+ font-weight: 600;
+}
+
+.d2{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 80%;
+     
+     
+     
+}
+
+
+
+#n2span{
+    
+    
+    text-align: center;
+    color: white;
+    font-size: 3.2rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 1000;
+
+overflow: hidden;
+}
+
+.nn2{
+    width: 588px;
+    gap: 20px;
+}
+
+#p1{
+    padding: 10px;
+    font-size: 1.20rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#p2{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button input{
+    height: 53px;
+    background-color: transparent;
+    border: 1.2px solid rgb(135, 130, 130);
+    border-radius: 3px;
+    width: 310px;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: 18px;
+    
+    
+}
+
+.button button{
+    height:53px;
+    background-color: red;
+    width: 200px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+
+.curved-line {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .curved-line::before,
+  .curved-line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 100px;
+    border-bottom: 4px solid;
+  }
+  
+  .curved-line::before {
+    left: 0;
+    border-bottom-right-radius: 100%;
+    border-color: #ff69b4;
+  }
+  
+  .curved-line::after {
+    right: 0;
+    border-bottom-left-radius: 100%;
+    border-color: #4169e1;
+  }
+
+
+
